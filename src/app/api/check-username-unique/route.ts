@@ -9,6 +9,7 @@ const UsernameQuerySchema = z.object({
 
 
 export async function GET(request: Request) {
+
     await dbConnect()
 
     try {
