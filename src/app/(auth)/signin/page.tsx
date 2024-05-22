@@ -1,18 +1,9 @@
-'use client'
-import { zodResolver } from "@hookform/resolvers/zod"
-import { useState } from "react"
-import { useForm } from "react-hook-form"
-import { z } from "zod"
+import React from 'react'
 
 const page = () => {
-  const [username, setUsername] = useState('');
-  const [usernameMessage, setUsernameMessage] = useState('');
-  const [isCheckingUsername, setIsCheckingUsername] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false)
-
   return (
     <div>
-      
+      Sign in
     </div>
   )
 }
